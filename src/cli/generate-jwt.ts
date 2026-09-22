@@ -1,7 +1,7 @@
 import "dotenv/config"
 import { jwt } from "@/core/jwt"
 
-const STUDENTS = ["makhij", "darshk", "alliemi", "muradli1", "pragya7","aasri", "taoren","wangcy07","didrik"]
+const STUDENTS = ["aryahuja", "ddarbha", "agosain", "kim301", "licamelm","dejah7", "melitski","kobike","voravich", "songh8", "dzabeli", "zhang009", "jclaner"]
 
 const main = async () => {
 	const tokens = await Promise.all(

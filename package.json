@@ -1,10 +1,11 @@
 {
-	"name": "hw2-infra",
+	"name": "hw4-backend",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"dev": "tsx --watch ./src/serve.ts",
+		"jwt": "tsx ./src/cli/generate-jwt.ts",
 		"build": "tsup"
 	},
 	"keywords": [],
